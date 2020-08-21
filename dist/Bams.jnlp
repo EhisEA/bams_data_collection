@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Bams.jnlp">
+  <information>
+    <title>Bams</title>
+    <vendor>EMMANUEL AYEMERE</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Bams.jar" size="19332" download="eager" />
+    <jar href="lib\derbyclient-10.14.1.0.jar" size="587959" download="eager" />
+    <jar href="lib\h2-1.4.186.jar" size="1691016" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.23.1.jar" size="6733696" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Bams" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bams.Bams"  name="Bams" />
+  <update check="always"/>
+</jnlp>
